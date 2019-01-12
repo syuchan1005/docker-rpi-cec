@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine
 LABEL maintainer "syuchan1005 <syuchan.dev@gmail.com>"
 
 RUN apk add build-base cmake git raspberrypi raspberrypi-dev raspberrypi-libs \
